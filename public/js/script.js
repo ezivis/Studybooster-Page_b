@@ -28,7 +28,7 @@
     addTask: function (task) {
       var new_task = document.createElement('li');
         new_task.setAttribute('class', 'task');
-        new_task.innerHTML = task + '<a href="javascript:;" class="remove-task">remove</a>';
+        new_task.innerHTML = task + '<a href="javascript:;" class="remove-task">remove</a>' + '<a href="/time" class="remove-task">Start Focus</a>';
         
       var $list = document.querySelector('.app-list ul');
         $list.appendChild(new_task);
