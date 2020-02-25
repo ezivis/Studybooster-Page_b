@@ -208,7 +208,6 @@ body {
   border-bottom: calc(3px + .28vw) solid #FF6292;
   border-radius: 10px;
   color: #FF6292;
-  font: bold calc(21px + 1.43vw) "Open Sans", sans-serif;
   margin: calc(5px + .43vw) calc(3px + .43vw);
   padding: calc(3px + .43vw) calc(5px + .43vw);
   text-align: center;
@@ -216,7 +215,7 @@ body {
 #countdownmain #options input[type=number]::-webkit-inner-spin-button, #countdownmain #options input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
-@media all and (min-width: 512px) {
+@media all and (min-width: 200px) {
   #countdownmain #options input[type=number] {
     border-bottom: 4.43px solid #FF6292;
     font: bold 28.43px "Open Sans", sans-serif;
@@ -224,10 +223,9 @@ body {
     padding: 5.2px 7.2px;
   }
 }
-@media all and (max-width: 184px) {
+@media all and (max-width: 100px) {
   #countdownmain #options input[type=number] {
     border-bottom: 3.5px solid #FF6292;
-    font: bold 23.6px "Open Sans", sans-serif;
     margin: 5.7px 3.7px;
     padding: 3.7px 5.7px;
   }
